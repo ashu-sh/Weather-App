@@ -33,9 +33,6 @@ function search(e) {
                <p class="card-text"style="font-size:16px;color:#fff;fontWeight:600;margin-left:-120px;">${new Date(
                  values.dt * 1000
                ).toLocaleString("en-US", {
-                 day: "numeric",
-                 month: "long",
-                 year: "numeric",
                  hour: "numeric",
                  minute: "numeric",
                  second: "numeric",
